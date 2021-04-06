@@ -11,13 +11,13 @@ body {
   background-position: top center;
 }
 .aside {
+ margin-bottom:40px;
  font-color: #FF0000;
  font-size: 24px;
  text-align: center;
- border-width:2px;
- border-style:inset;
+ border-width:medium;
+ border-style:groove;
  border-color:#8B0000;
- border-
 }
 
 .container {

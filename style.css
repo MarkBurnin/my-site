@@ -10,6 +10,15 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
 }
+.aside {
+ font-color: #FF0000;
+ font-size: 24px;
+ text-align: center;
+ border-width:2px;
+ border-style:inset;
+ border-color:#8B0000;
+ border-
+}
 
 .container {
   max-width: 928px;

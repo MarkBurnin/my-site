@@ -11,8 +11,8 @@ body {
   background-position: top center;
 }
 .aside {
- margin-bottom:40px;
- font-color: #FF0000;
+ margin-bottom:30px;
+ color: #FF0000;
  font-size: 24px;
  text-align: center;
  border-width:medium;

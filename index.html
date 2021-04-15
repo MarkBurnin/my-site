@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>Портфолио Junior верстальщика</title>
+  </head>
+
+  <body>
+    <header class="page-header">
+    	<div class="container">
+      <a href="mailto:burnin21gogle@gmail.com" class="header-email">burnin21gogle@gmail.com</a>
+        <br>
+      <a href="tel:+79832430192" class="header-phone">+7 983 243 01 92</a>
+        </div>
+    </header>
+
+    <section class="hero-image">
+    	<div class="container">
+      <h1 class="heading">Марк Бурнин </h1>
+      <p>Junior верстальщик</p>
+        </div>
+    </section>
+
+    <section class="intro">
+    	<div class="container">
+      <h2 class="subheading">Давайте познакомимся</h2>
+        <figure class="user-image">
+        <img src="files/myface.jpg" width="928" alt="Фотография Бурнина Марка Артемьевича">
+          </figure>
+          <div class="news-stats">
+            <button class="heart like-none" type="button"><span class="likes-number">0</span></button>
+            <time datetime="2021-04-15">15.04.2021</time>
+          </div>
+      <h3>Пара слов о себе</h3>
+      <p>В прошлом увлекался матиматикой, физикой, философфией и т.п.
+       На данный момент моя главная цель - это обретение полной финансовой независимости.
+       Для меня необходим свободный график работы.
+       Все проекты сдаю своевременно.
+        </p>
+      <h3>Чем могу быть полезен</h3>
+      <p>Я могу создать в интернете информационную площадку для вашего бизнеса.
+        Это позволит вам заявить о себе всему миру.
+        При продуманном маркетинге площадка способна повысит ваши продажи.</p>
+        <div class="skills">
+          <h3>Мои навыки</h3>
+          <dl class="skills-list">
+            <dt class="skill-html">HTML</dt>
+            <dd class="level" style="width: 60%;"><div>60%</div></dd>
+            <dt class="skill-css">CSS</dt>
+            <dd class="level" style="width: 40%;"><div>40%</div></dd>
+            </dl>
+          </div>
+         </div>
+    </section>
+
+    <section class="portfolio">
+    	<div class="container">
+      <h2 class="subheading">Мои работы</h2>
+<figure class="project-image">
+  <img src="files/project.jpg" width="928" height="536" alt="Cайт магазина товаров для дома">
+</figure>
+      <h3>Магазин товаров для дома</h3>
+      <p>Мой первый сайт.</p>
+<a class="button" href="source/project/index.html">Открыть страницу</a>
+        </div>
+
+        <h2>Комментарии</h2>
+          <ol class="comment-list">
+            <li class="user-comment">Красавчик ♥</li>
+          </ol>
+        <form action="https://MarkBurnin.github.io/my-site" method="post" class="comment-form">
+          <div class="comment-inner">
+            <label class="comment-label" for="comment-input">Ваш комментарий</label>
+            <input type="text" class="comment-field" value="" placeholder="Комментарий" required id="comment-input">
+          </div>
+          <button class="button" type="submit">Отправить</button>
+          </form>
+    </section>
+                                                  
+    <footer class="page-footer">
+    	<div class="container">
+      <a class="footer-email" href="mailto:burnin21gogle@gmail.com">burnin21gogle@gmail.com</a>
+        <br>
+      <a class="footer-phone" href="tel:+79832430192">+7 983 243 01 92</a>
+        </div>
+    </footer>
+    <script src="likes.js"></script>
+    <script src="comment.js"></script>
+  </body>
+</html>

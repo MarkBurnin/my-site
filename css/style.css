@@ -13,6 +13,10 @@ body {
   font-style: normal;
 }
 
+.slider_area {
+  background-color: black;
+}
+
 /* line 12, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/theme-default.scss */
 .img {
   max-width: 100%;
